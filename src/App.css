@@ -40,3 +40,27 @@
 .read-the-docs {
   color: #888;
 }
+
+.post-container, .comment-container, .album-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.post-api, .comment-api, .album-api{
+  width: 20vw;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  background-color: rgb(250, 246, 242);
+  border-radius: 2px;
+}
+
+.comment-api {
+  background-color: rgb(198, 243, 206);
+}
+
+.album-api {
+  background-color: rgb(164, 246, 250);
+}
+
+ 
